@@ -4,9 +4,18 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text('Hello World'),
-      ), // Center
-    ), // MaterialApp
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: Text('I am Ryuto'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        body: Center(
+          child: Image(
+            image: NetworkImage('https://avatars3.githubusercontent.com/u/20394831?s=400&u=7cffe1b92ccc62e0f8407ff5ffc6682186f44115&v=4'),
+          ),
+        )
+      ),
+    ),
   );
 }

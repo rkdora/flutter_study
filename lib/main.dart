@@ -12,7 +12,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage('https://avatars3.githubusercontent.com/u/20394831?s=400&u=7cffe1b92ccc62e0f8407ff5ffc6682186f44115&v=4'),
+            image: AssetImage('images/ki.png'),
           ),
         )
       ),
